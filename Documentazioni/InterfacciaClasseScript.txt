@@ -2,7 +2,7 @@
 Nome:			ScriptManager
 Tipologia:		Costruttore
 Scopo:			Creare un instanza dell'oggetto, inizializza lo script per 
-			l'escuzione, variabili addette alla memorizzazione delle 
+			l'escuzione, inizializza le variabili addette alla memorizzazione delle 
 			variabili dello script e, tramite la classe adatta, crea il 
 			file di log
 							
