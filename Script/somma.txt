@@ -1,3 +1,5 @@
+//Chiede in input due numeri positivi, dopodiché ne stampa la somma.
+
 start
 IntDeclared: Somma
 IntAssign: 0 Due

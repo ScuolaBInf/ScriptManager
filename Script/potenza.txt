@@ -1,3 +1,5 @@
+//Chiede in input un numero intero, dopodiché stampa a video tale numero, elevato alla potenza di 2.
+
 start
 output: Inserisci_Primo_Valore:
 IntInput: variabile1

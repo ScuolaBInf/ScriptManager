@@ -1,3 +1,5 @@
+//Stampa a video "Positivo" se il numero inserito è maggiore di 0, viceversa, stampa "Negativo".
+
 start
 IntDeclared: conf
 IntAssign: 0 conf
