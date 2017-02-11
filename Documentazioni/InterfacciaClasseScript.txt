@@ -1,0 +1,31 @@
+/****************************************************************************/
+Nome:			ScriptManager
+Tipologia:		Costruttore
+Scopo:			Creare un instanza dell'oggetto, inizializza lo script per 
+			l'escuzione, variabili addette alla memorizzazione delle 
+			variabili dello script e, tramite la classe adatta, crea il 
+			file di log
+							
+Prototipo:		ScriptManager(string);
+Parametri:		
+		string: identifica il nome dello script da aprire (nome + estensione)		
+	
+Valore di Ritorno:	Nessuno
+Eccezioni:		Genera un accezione se non viene trovato lo script.
+/****************************************************************************/
+Nome:			RunScript
+Tipologia:		Metodo
+Scopo:			Esegue lo script caricato precedentemente.			
+Prototipo:		void RunScript();
+Parametri:		Nessuno
+Valore di Ritorno:	Nessuno
+Eccezioni:		Nessuna
+/****************************************************************************/
+Nome:			CloseScript
+Tipologia:		Metodo
+Scopo:			Chiude lo script una volta eseguito
+Prototipo:		void CloseScript();
+Parametri:		Nessuno
+Valore di Ritorno:	Nessuno
+Eccezioni:		Nessuna
+/****************************************************************************/
