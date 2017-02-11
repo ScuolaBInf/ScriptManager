@@ -1,0 +1,10 @@
+start
+IntDeclared: conf
+IntAssign: 0 conf
+output: Inserisci_Primo_Valore:
+IntInput: variabile1
+if> 1 variabile1 conf
+output: Positivo
+if< 1 variabile1 conf
+output: Negativo
+end

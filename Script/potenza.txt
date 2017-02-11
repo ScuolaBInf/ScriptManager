@@ -1,0 +1,7 @@
+start
+output: Inserisci_Primo_Valore:
+IntInput: variabile1
+Operand*: variabile1 variabile1 variabile1
+output: Risultato:
+output: variabile1	
+end

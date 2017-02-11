@@ -1,0 +1,51 @@
+/****************************************************************************/
+Nome:			ErrorLog
+Tipologia:		Costruttore
+Scopo:			Creare un instanza dell'oggetto non inizializzata, occorrerà inizializzarla 				
+			in seguito
+Prototipo:		errorLog();
+Parametri:		Nessuno
+Valore di Ritorno:	Nessuno
+Eccezioni:		Nessuna
+/****************************************************************************/
+Nome:			ErrorLog
+Tipologia:		Costruttore
+Scopo:			Creare un instanza dell'oggetto, aprire il file di log.
+Prototipo:		errorLog(string);
+Parametri:		
+		string: parametro contenente il nome del file da aprire in scrittura.
+
+Valore di Ritorno:	Nessuno
+Eccezioni:		Nessuna
+/****************************************************************************/
+Nome:			insertLog
+Tipologia:		Metodo
+Scopo:			Inserire all'interno del file aperto dal costruttore la data ed un 					
+			messaggio identificato del log, seguendo il seguente formato:
+			Giorno Mese GiornoNumero Ora Anno: Messaggio
+Prototipo:		void insertLog(string);
+Parametri:		
+		string: Messaggio che verrà inserito nel file dopo la data.
+
+Valore di Ritorno:	Nessuno
+Eccezioni:		Nessuna
+/****************************************************************************/
+Nome:			getLogFile
+Tipologia:		Metodo
+Scopo:			Permette di modificare diretamente il file di log
+Prototipo:		FILE* getLogFile();
+Parametri:		Nessuno
+Valore di Ritorno:	Puntatore al File della classe errorLog.
+Eccezioni:		Nessuno
+/****************************************************************************/
+Nome:			changeLogFile
+Tipologia:		Metodo
+Scopo:			Permette di modificare il nome del file da aprire
+Prototipo:		void changeLogFile(string);
+Parametri:		
+	
+	string: Nome del file da aprire.	
+
+Valore di Ritorno:	Nessuno
+Eccezioni:		Nessuna
+/****************************************************************************/
