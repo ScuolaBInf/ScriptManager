@@ -2,7 +2,7 @@
 
 start
 IntDeclared: Somma
-IntAssign: 0 Due
+IntAssign: 0 Somma
 output: Inserisci_Primo_Valore:
 IntInput: variabile1
 output: Inserisci_Secondo_Valore:	
