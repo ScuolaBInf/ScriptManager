@@ -60,7 +60,7 @@ ScriptManager::ScriptManager(string ScriptName)
 		this -> intvariablesList = new int[200];
 		this -> intVariablesName = new string[200];
 		this -> intVariablesI = 0;
-		log.changeLogFile("../Log/logfile.log");
+		log.changeLogFile("logfile.log");
 	}
 
 void ScriptManager::RunScript()
